@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One Armed Bandit Game</title>
+  <link rel='stylesheet' href='css/style.css'>
+</head>
+<body>
+  <div class="wrap">
+
+    <h1>One Armed Bandit</h1>
+
+    <section class="game">
+      <div class="color"></div>
+      <div class="color"></div>
+      <div class="color"></div>
+    </section>
+
+    <section class="play">
+      <input type="number" placeholder="Provide rates" id="bid">
+      <button id="start">Your move!</button>
+    </section>
+
+    <section class="panel">Yor resources before the next game: <span class="wallet"></span></section>
+
+    <section class="score">
+      <span class="result"></span> You took <span class="number"></span> games, including <span class="win"></span> wins
+      and <span class="loss"></span> losers
+    </section>
+
+  </div>
+  <script src='js/Wallet.js'></script>
+  <!-- <script src='js/Game.js'></script>
+  <script src='js/main.js'></script> -->
+</body>
+</html>
